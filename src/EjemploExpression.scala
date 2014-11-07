@@ -28,6 +28,8 @@ object EjemploExpression {
     case Product(l, r) => eval(l, env) * eval(r,env);
     case Const(v) => v;
     case Var(n) => env(n);
+    //Este patchea con cualquier cosa
+    case _ => 0;
   }
 }
 
