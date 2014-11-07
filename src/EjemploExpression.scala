@@ -19,8 +19,11 @@ object EjemploExpression {
 
     val env1: Enviroment = {case "a" => 1 case "b" => 2 case "c" => 5};
     println("1 + 2*5 = "  + eval(expression, env1));
+
+    println("null = "  + eval(null, env1));
   }
   def eval(tree:Tree, env:Enviroment): Int = tree match {
+    case null => 0;
     case Sum(l, r) => eval(l, env) + eval(r,env);
     case Product(l, r) => eval(l, env) * eval(r,env);
     case Const(v) => v;
