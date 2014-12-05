@@ -10,9 +10,9 @@ package object traits {
   }
 
   //Puedo esperar un objeto que sea de dos tipos a la vez
-  def cloneAndCompare(obj: Cloneable with Comparable[AnyRef]): Cloneable = {
-    val copia: AnyRef = obj.clone()
-    obj.compareTo(copia)
-    obj
-  }
+//  def cloneAndCompare(obj: Cloneable with Comparable[AnyRef]): Cloneable = {
+//    val copia: AnyRef = obj.clone()
+//    obj.compareTo(copia)
+//    obj
+//  }
 }
