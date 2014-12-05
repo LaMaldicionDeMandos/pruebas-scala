@@ -1,4 +1,4 @@
-package org.pasut.pruebas.scala.ClasesCase
+package org.pasut.pruebas.scala.clasescase
 
 /**
  * Las Clases Case se usan para armar lenguajes, se descomponen asi mismas a travez de reconocimiento de patrones
