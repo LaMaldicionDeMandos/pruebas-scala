@@ -1,3 +1,5 @@
+package org.pasut.pruebas.scala
+
 /**
  * Created by marcelo on 11/7/14.
  */
