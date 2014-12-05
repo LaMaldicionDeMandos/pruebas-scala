@@ -1,4 +1,4 @@
-package org.pasut.pruebas.scala
+package org.pasut.pruebas.scala.tiposabstractos
 
 /**
  * Created by marcelo on 11/7/14.
