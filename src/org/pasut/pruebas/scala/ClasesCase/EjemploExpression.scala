@@ -1,6 +1,7 @@
-package org.pasut.pruebas.scala.tiposabstractos
+package org.pasut.pruebas.scala.ClasesCase
 
 /**
+ * Las Clases Case se usan para armar lenguajes, se descomponen asi mismas a travez de reconocimiento de patrones
  * Created by marcelo on 11/7/14.
  */
 abstract class Tree
